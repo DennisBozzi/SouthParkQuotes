@@ -1,0 +1,55 @@
+body {
+    height: 100vh;
+}
+
+.profile {
+    width: 280px !important;
+    height: 280px !important;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #198754;
+}
+
+h1,
+h2,
+h4 {
+    color: white;
+}
+
+h1 {
+    position: fixed;
+    top: 32px;
+    right: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+}
+
+.reload {
+    width: 96px;
+    position: fixed;
+    bottom: 32px;
+    right: calc(50% - 48px);
+}
+
+.reload:hover {
+    opacity: 0.3;
+}
+
+.reload img {
+    width: 28px !important;
+    height: 28px !important;
+}
+
+.imgButton {
+    width: 40px;
+}
+
+.divLinks {
+    top: 32px;
+}
+
+.spin {
+    transition: all .4s, transform 0.5s;
+    transform: rotate(360deg);
+}
